@@ -3,7 +3,6 @@ from google.cloud import aiplatform_v1
 import json
 import os 
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/tylernorris/keys/pcl-ai-concierge.json'
 
 def text_embedding(input) -> list:
     """Text embedding with a Large Language Model."""
